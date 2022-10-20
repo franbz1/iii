@@ -192,6 +192,61 @@ iframe {
   color: #7B4B94;
 }
 
+.txt3 {
+  font-family: Ubuntu-Regular;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #FFFFFF;
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ Start ]*/
+
+.container-start100 {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #1E1E1E;
+  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
+  background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
+  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
+}
+
+.wrap-start100 {
+  width: auto;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+/*------------------------------------------------------------------
+[  ]*/
+.start100-pic {
+  padding-bottom: 7rem;
+  width: 316px;
+}
+
+.start100-pic img {
+  max-width: 100%;
+}
+
+
 
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/
@@ -214,10 +269,10 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #1E1E1E;
-  background: -webkit-linear-gradient(174deg, #1E1E1E, #5D53FF);
-  background: -o-linear-gradient(174deg, #1E1E1E, #5D53FF);
-  background: -moz-linear-gradient(174deg, #1E1E1E, #5D53FF);
-  background: linear-gradient(174deg, #1E1E1E, #5D53FF);
+  background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
+  background: -o-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
+  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(93, 83, 255, 0.2) 47.19%), #000000;
 }
 
 .wrap-login100 {
@@ -374,6 +429,50 @@ iframe {
 
 /*------------------------------------------------------------------
 [ Button ]*/
+.container-start100-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.start100-btn {
+  font-family: Ubuntu-Bold;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.165em;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  background: #348AA7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.start100-btn:hover {
+  background: #333333;
+}
+
 .container-login100-form-btn {
   width: 100%;
   display: -webkit-box;
@@ -473,7 +572,7 @@ iframe {
 /*------------------------------------------------------------------
 [ Responsive ]*/
 
-
+@media only screen and (max-width: 992px) {}
 
 @media (max-width: 992px) {
   .wrap-login100 {
@@ -501,6 +600,7 @@ iframe {
   .login100-form-title {
     padding-top: 1rem;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -523,6 +623,10 @@ iframe {
 
   .p-t-136 {
     padding-top: 0px;
+  }
+
+  .text-center {
+    padding-top: 40%;
   }
 }
 
