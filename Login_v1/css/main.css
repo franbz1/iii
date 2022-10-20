@@ -52,7 +52,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #57b846;
+  color: #7B4B94;
 }
 
 /*---------------------------------------------*/
@@ -214,10 +214,10 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #1E1E1E;
-  background: -webkit-linear-gradient(174deg, #1E1E1E, #440e99);
-  background: -o-linear-gradient(174deg, #1E1E1E, #440e99);
-  background: -moz-linear-gradient(174deg, #1E1E1E, #440e99);
-  background: linear-gradient(174deg, #1E1E1E, #440e99);
+  background: -webkit-linear-gradient(174deg, #1E1E1E, #5D53FF);
+  background: -o-linear-gradient(174deg, #1E1E1E, #5D53FF);
+  background: -moz-linear-gradient(174deg, #1E1E1E, #5D53FF);
+  background: linear-gradient(174deg, #1E1E1E, #5D53FF);
 }
 
 .wrap-login100 {
@@ -236,9 +236,27 @@ iframe {
   padding: 177px 130px 33px 95px;
 }
 
+.background-buttons-form {
+  font-family: Ubuntu-Bold;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.165em;
+  color: #fff;
+  text-transform: uppercase;
+
+  width: 100%;
+  border-radius: 25px;
+  background: #348AA7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*------------------------------------------------------------------
 [  ]*/
 .login100-pic {
+  padding-bottom: 7rem;
   width: 316px;
 }
 
@@ -263,6 +281,7 @@ iframe {
   width: 100%;
   display: block;
   padding-bottom: 54px;
+  padding-top: 2rem;
 }
 
 
@@ -301,7 +320,7 @@ iframe {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(87, 184, 70, 0.8);
+  color: #7B4B94;
 }
 
 .input100:focus+.focus-input100 {
@@ -349,7 +368,7 @@ iframe {
 }
 
 .input100:focus+.focus-input100+.symbol-input100 {
-  color: #57b846;
+  color: #7B4B94;
   padding-left: 28px;
 }
 
@@ -365,6 +384,56 @@ iframe {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 20px;
+}
+
+.container-button-form200 {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 2.5rem;
+}
+
+.button-form201 {
+  font-family: Ubuntu-Bold;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #fff;
+
+  width: 100%;
+  border-radius: 25px;
+  background: #7B4B94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.button-form201:hover {
+  color: #348AA7;
+}
+
+.button-form202 {
+  font-family: Ubuntu-Bold;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #fff;
+
+  width: 100%;
+  border-radius: 25px;
+  background: #348AA7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 .login100-form-btn {
@@ -416,13 +485,21 @@ iframe {
     border-radius: 40px;
   }
 
+  .background-buttons-form {
+    margin-top: 3rem;
+  }
 
   .login100-pic {
+    padding-bottom: 0;
     width: 35%;
   }
 
   .login100-form {
     width: 50%;
+  }
+
+  .login100-form-title {
+    padding-top: 1rem;
   }
 }
 
@@ -433,11 +510,11 @@ iframe {
   }
 
   .login100-form-title {
-    padding-top: 30px;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.01em;
+    padding-top: 0.75rem;
   }
 
   .login100-form {
